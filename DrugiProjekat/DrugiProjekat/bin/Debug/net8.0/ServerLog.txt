@@ -1,0 +1,534 @@
+[9.6.2026. 00:55:19] [Notify] Thread 1: Started server at web address http://localhost:8080/ (do 100 paralelnih obrada)
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 1/100)
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Request] Thread 11: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request recieved
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?sort=new&authors=asimov
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:55:29] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 2/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?sort=new&authors=asimov
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 3/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?sort=new&authors=asimov
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 4/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?sort=new&authors=asimov
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 5/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?authors=asimov&sort=new
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 6/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?sort=new&authors=asimov
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 7/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?sort=new&authors=asimov
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 8/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?authors=asimov&sort=new
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 9/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?authors=asimov&sort=new
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 10/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?authors=asimov&sort=new
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 11/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?authors=asimov&sort=new
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 12/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?sort=new&authors=asimov
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 13/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?sort=new&authors=asimov
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 14/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?authors=asimov&sort=new
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 15/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?authors=asimov&sort=new
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 16/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?authors=asimov&sort=new
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 17/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?sort=new&authors=asimov
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 18/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?sort=new&authors=asimov from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?sort=new&authors=asimov
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 19/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?authors=asimov&sort=new
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:29] [Notify] Thread 12: Dispatching (active: 20/100)
+[9.6.2026. 00:55:29] [Request] Thread 12: GET http://localhost:8080/search?authors=asimov&sort=new from localhost:8080 -> Request started processing
+[9.6.2026. 00:55:29] [Notify] Thread 12: Translation chain:
+	   /search?authors=asimov&sort=new
+	   -> a=asimov&o=new
+	   -> q=((author:asimov))&sort=new
+[9.6.2026. 00:55:29] [Synchro] Thread 12: Awaiting on Task 1 to fetch response from OpenLibrary)
+[9.6.2026. 00:55:31] [Notify] Task 2 (Thread 7): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:55:31] [Notify] Thread 7: Cached 35266B of data; operation type: Simple
+[9.6.2026. 00:55:31] [Response] Thread 10: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 6: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 7: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 4: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 15: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 16: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 10: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 17: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 18: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 19: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 20: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 21: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 22: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 23: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 6: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 4: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 7: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 15: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 16: Sending 35266B long response
+[9.6.2026. 00:55:31] [Response] Thread 24: Sending 35266B long response
+[9.6.2026. 00:55:31] [Network] Thread 10: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 26: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 25: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 17: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 19: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 18: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 20: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 21: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 27: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 28: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 22: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 29: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 30: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 23: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 6: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 4: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 7: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 15: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 16: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Network] Thread 24: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:55:31] [Time] Thread 25: Finished processing in 1,1300000000000001s
+[9.6.2026. 00:55:31] [Time] Thread 26: Finished processing in 1,137s
+[9.6.2026. 00:55:31] [Time] Thread 19: Finished processing in 1,1320000000000001s
+[9.6.2026. 00:55:31] [Time] Thread 10: Finished processing in 1,1320000000000001s
+[9.6.2026. 00:55:31] [Time] Thread 17: Finished processing in 1,171s
+[9.6.2026. 00:55:31] [Time] Thread 20: Finished processing in 1,118s
+[9.6.2026. 00:55:31] [Time] Thread 18: Finished processing in 1,135s
+[9.6.2026. 00:55:31] [Time] Thread 21: Finished processing in 1,1300000000000001s
+[9.6.2026. 00:55:31] [Time] Thread 27: Finished processing in 1,129s
+[9.6.2026. 00:55:31] [Time] Thread 28: Finished processing in 1,1280000000000001s
+[9.6.2026. 00:55:31] [Time] Thread 22: Finished processing in 1,127s
+[9.6.2026. 00:55:31] [Time] Thread 29: Finished processing in 1,1260000000000001s
+[9.6.2026. 00:55:31] [Time] Thread 30: Finished processing in 1,125s
+[9.6.2026. 00:55:31] [Time] Thread 23: Finished processing in 1,124s
+[9.6.2026. 00:55:31] [Time] Thread 6: Finished processing in 1,122s
+[9.6.2026. 00:55:31] [Time] Thread 4: Finished processing in 1,121s
+[9.6.2026. 00:55:31] [Time] Thread 7: Finished processing in 1,116s
+[9.6.2026. 00:55:31] [Time] Thread 15: Finished processing in 1,119s
+[9.6.2026. 00:55:31] [Time] Thread 16: Finished processing in 1,117s
+[9.6.2026. 00:55:31] [Time] Thread 24: Finished processing in 1,123s
+[9.6.2026. 00:57:08] [Request] Thread 11: GET http://localhost:8080/search?subjects=fantasy&subjects=education&fields=author_name,title,subject from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:08] [Notify] Thread 12: Dispatching (active: 1/100)
+[9.6.2026. 00:57:08] [Request] Thread 12: GET http://localhost:8080/search?subjects=fantasy&subjects=education&fields=author_name,title,subject from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:08] [Request] Thread 11: GET http://localhost:8080/search?authors=tanenbaum from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:08] [Request] Thread 11: GET http://localhost:8080/search?title=harry potter from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:08] [Request] Thread 11: GET http://localhost:8080/search?authors=tolkien&authors=Ian Brodie&title=hobbit from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:08] [Request] Thread 11: GET http://localhost:8080/search?title=neuromancer from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:08] [Notify] Thread 12: Translation chain:
+	   /search?subjects=fantasy&subjects=education&fields=author_name,title,subject
+	   -> f=author_name,subject,title&s=education&s=fantasy
+	   -> q=((subject:fantasy) OR (subject:education))&fields=author_name,subject,title
+[9.6.2026. 00:57:08] [Request] Thread 11: GET http://localhost:8080/search?authors=tolkien&title=hobbit&fields=*&sort=new&lang=en from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:08] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:08] [Request] Thread 11: GET http://localhost:8080/search?authors=george martin from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:08] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:08] [Request] Thread 11: GET http://localhost:8080/search?title=Hobbit&authors=tolkien from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:08] [Notify] Thread 12: Dispatching (active: 2/100)
+[9.6.2026. 00:57:08] [Request] Thread 12: GET http://localhost:8080/search?authors=tanenbaum from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:08] [Request] Thread 11: GET http://localhost:8080/search?title=dune from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:08] [Notify] Thread 12: Translation chain:
+	   /search?authors=tanenbaum
+	   -> a=tanenbaum
+	   -> q=((author:tanenbaum))
+[9.6.2026. 00:57:08] [Request] Thread 11: GET http://localhost:8080/search?subjects=fantasy,education&fields=author_name,title,subject from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:08] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:08] [Request] Thread 11: GET http://localhost:8080/search?authors=dostoyevsky from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:08] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:08] [Request] Thread 11: GET http://localhost:8080/search?title=crime and punishment from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:08] [Notify] Thread 12: Dispatching (active: 3/100)
+[9.6.2026. 00:57:08] [Request] Thread 12: GET http://localhost:8080/search?title=harry potter from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:08] [Notify] Thread 12: Translation chain:
+	   /search?title=harry%20potter
+	   -> t=harry potter
+	   -> q=((title:harry potter))
+[9.6.2026. 00:57:08] [Request] Thread 11: GET http://localhost:8080/search?subjects=fantasy&work_year=[2000 TO 2010] from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:08] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:08] [Request] Thread 11: GET http://localhost:8080/search?subjects=fantasy from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:08] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:08] [Request] Thread 11: GET http://localhost:8080/search?authors=tolkien, Ian Brodie&title=hobbit from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:08] [Notify] Thread 12: Dispatching (active: 4/100)
+[9.6.2026. 00:57:08] [Request] Thread 12: GET http://localhost:8080/search?authors=tolkien&authors=Ian Brodie&title=hobbit from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:08] [Request] Thread 11: GET http://localhost:8080/search?publisher=penguin&sort=old from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:08] [Notify] Thread 12: Translation chain:
+	   /search?authors=tolkien&authors=Ian%20Brodie&title=hobbit
+	   -> a=ian brodie&a=tolkien&t=hobbit
+	   -> q=((title:hobbit)) AND ((author:tolkien) OR (author:ian brodie))
+[9.6.2026. 00:57:08] [Request] Thread 11: GET http://localhost:8080/search?authors=a from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:08] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:08] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:08] [Notify] Thread 12: Dispatching (active: 5/100)
+[9.6.2026. 00:57:08] [Request] Thread 12: GET http://localhost:8080/search?title=neuromancer from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:08] [Notify] Thread 12: Translation chain:
+	   /search?title=neuromancer
+	   -> t=neuromancer
+	   -> q=((title:neuromancer))
+[9.6.2026. 00:57:08] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:08] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:08] [Notify] Thread 12: Dispatching (active: 6/100)
+[9.6.2026. 00:57:08] [Request] Thread 12: GET http://localhost:8080/search?authors=tolkien&title=hobbit&fields=*&sort=new&lang=en from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:08] [Notify] Thread 12: Translation chain:
+	   /search?authors=tolkien&title=hobbit&fields=*&sort=new&lang=en
+	   -> a=tolkien&f=*&l=en&o=new&t=hobbit
+	   -> q=((title:hobbit)) AND ((author:tolkien))&sort=new&lang=en&fields=*
+[9.6.2026. 00:57:08] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:08] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:08] [Notify] Thread 12: Dispatching (active: 7/100)
+[9.6.2026. 00:57:08] [Request] Thread 12: GET http://localhost:8080/search?authors=george martin from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:08] [Notify] Thread 12: Translation chain:
+	   /search?authors=george%20martin
+	   -> a=george martin
+	   -> q=((author:george martin))
+[9.6.2026. 00:57:08] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:08] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:08] [Notify] Thread 12: Dispatching (active: 8/100)
+[9.6.2026. 00:57:08] [Request] Thread 12: GET http://localhost:8080/search?title=Hobbit&authors=tolkien from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:08] [Notify] Thread 12: Translation chain:
+	   /search?title=Hobbit&authors=tolkien
+	   -> a=tolkien&t=hobbit
+	   -> q=((title:hobbit)) AND ((author:tolkien))
+[9.6.2026. 00:57:08] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:08] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:08] [Notify] Thread 12: Dispatching (active: 9/100)
+[9.6.2026. 00:57:08] [Request] Thread 12: GET http://localhost:8080/search?title=dune from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:08] [Notify] Thread 12: Translation chain:
+	   /search?title=dune
+	   -> t=dune
+	   -> q=((title:dune))
+[9.6.2026. 00:57:08] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:08] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:08] [Notify] Thread 12: Dispatching (active: 10/100)
+[9.6.2026. 00:57:08] [Request] Thread 12: GET http://localhost:8080/search?subjects=fantasy,education&fields=author_name,title,subject from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:08] [Notify] Thread 12: Translation chain:
+	   /search?subjects=fantasy,education&fields=author_name,title,subject
+	   -> f=author_name,subject,title&s=education,fantasy
+	   -> q=((subject:fantasy AND subject:education))&fields=author_name,subject,title
+[9.6.2026. 00:57:08] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:08] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:08] [Notify] Thread 12: Dispatching (active: 11/100)
+[9.6.2026. 00:57:08] [Request] Thread 12: GET http://localhost:8080/search?authors=dostoyevsky from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:08] [Notify] Thread 12: Translation chain:
+	   /search?authors=dostoyevsky
+	   -> a=dostoyevsky
+	   -> q=((author:dostoyevsky))
+[9.6.2026. 00:57:08] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:08] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:08] [Notify] Thread 12: Dispatching (active: 12/100)
+[9.6.2026. 00:57:08] [Request] Thread 12: GET http://localhost:8080/search?title=crime and punishment from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:08] [Notify] Thread 12: Translation chain:
+	   /search?title=crime%20and%20punishment
+	   -> t=crime and punishment
+	   -> q=((title:crime and punishment))
+[9.6.2026. 00:57:08] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:08] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:08] [Notify] Thread 12: Dispatching (active: 13/100)
+[9.6.2026. 00:57:08] [Request] Thread 12: GET http://localhost:8080/search?subjects=fantasy&work_year=[2000 TO 2010] from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:08] [Notify] Thread 12: Translation chain:
+	   /search?subjects=fantasy&work_year=[2000%20TO%202010]
+	   -> s=fantasy&w=[2000 TO 2010]
+	   -> q=((first_publish_year:[2000 TO 2010])) AND ((subject:fantasy))
+[9.6.2026. 00:57:08] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:08] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:08] [Notify] Thread 12: Dispatching (active: 14/100)
+[9.6.2026. 00:57:08] [Request] Thread 12: GET http://localhost:8080/search?subjects=fantasy from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:08] [Notify] Thread 12: Translation chain:
+	   /search?subjects=fantasy
+	   -> s=fantasy
+	   -> q=((subject:fantasy))
+[9.6.2026. 00:57:08] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:08] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:08] [Notify] Thread 12: Dispatching (active: 15/100)
+[9.6.2026. 00:57:08] [Request] Thread 12: GET http://localhost:8080/search?authors=tolkien, Ian Brodie&title=hobbit from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:08] [Notify] Thread 12: Translation chain:
+	   /search?authors=tolkien,%20Ian%20Brodie&title=hobbit
+	   -> a=ian brodie,tolkien&t=hobbit
+	   -> q=((title:hobbit)) AND ((author:tolkien AND author:ian brodie))
+[9.6.2026. 00:57:08] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:08] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:08] [Notify] Thread 12: Dispatching (active: 16/100)
+[9.6.2026. 00:57:08] [Request] Thread 12: GET http://localhost:8080/search?publisher=penguin&sort=old from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:08] [Notify] Thread 12: Translation chain:
+	   /search?publisher=penguin&sort=old
+	   -> o=old&p=penguin
+	   -> q=((publisher:penguin))&sort=old
+[9.6.2026. 00:57:08] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:08] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:08] [Notify] Thread 12: Dispatching (active: 17/100)
+[9.6.2026. 00:57:08] [Request] Thread 12: GET http://localhost:8080/search?authors=a from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:08] [Notify] Thread 12: Translation chain:
+	   /search?authors=a
+	   -> a=a
+	   -> q=((author:a))
+[9.6.2026. 00:57:08] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:08] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:10] [Notify] Task 3 (Thread 39): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:10] [Notify] Thread 39: Cached 9363B of data; operation type: Simple
+[9.6.2026. 00:57:10] [Response] Thread 39: Sending 9363B long response
+[9.6.2026. 00:57:10] [Network] Thread 39: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:10] [Time] Thread 39: Finished processing in 1,925s
+[9.6.2026. 00:57:10] [Notify] Task 4 (Thread 38): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:10] [Notify] Thread 38: Cached 41540B of data; operation type: Simple
+[9.6.2026. 00:57:10] [Response] Thread 38: Sending 41540B long response
+[9.6.2026. 00:57:10] [Network] Thread 38: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:10] [Time] Thread 38: Finished processing in 2,355s
+[9.6.2026. 00:57:10] [Notify] Task 5 (Thread 38): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:10] [Notify] Thread 38: Cached 69944B of data; operation type: Simple
+[9.6.2026. 00:57:10] [Response] Thread 38: Sending 69944B long response
+[9.6.2026. 00:57:10] [Network] Thread 38: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:10] [Time] Thread 38: Finished processing in 2,67s
+[9.6.2026. 00:57:11] [Notify] Task 6 (Thread 39): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:11] [Notify] Thread 39: Cached 57203B of data; operation type: Simple
+[9.6.2026. 00:57:11] [Response] Thread 39: Sending 57203B long response
+[9.6.2026. 00:57:11] [Network] Thread 39: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:11] [Time] Thread 39: Finished processing in 2,844s
+[9.6.2026. 00:57:11] [Notify] Task 7 (Thread 39): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:11] [Notify] Thread 39: Cached 56213B of data; operation type: Simple
+[9.6.2026. 00:57:11] [Response] Thread 39: Sending 56213B long response
+[9.6.2026. 00:57:11] [Network] Thread 39: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:11] [Time] Thread 39: Finished processing in 2,97s
+[9.6.2026. 00:57:11] [Notify] Task 8 (Thread 37): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:11] [Notify] Thread 37: Cached 58842B of data; operation type: Simple
+[9.6.2026. 00:57:11] [Response] Thread 37: Sending 58842B long response
+[9.6.2026. 00:57:11] [Notify] Task 9 (Thread 39): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:11] [Notify] Thread 39: Cached 328B of data; operation type: Simple
+[9.6.2026. 00:57:11] [Response] Thread 39: Sending 328B long response
+[9.6.2026. 00:57:11] [Network] Thread 39: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:11] [Time] Thread 39: Finished processing in 2,985s
+[9.6.2026. 00:57:11] [Network] Thread 37: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:11] [Time] Thread 37: Finished processing in 3,0060000000000002s
+[9.6.2026. 00:57:11] [Notify] Task 10 (Thread 37): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:11] [Notify] Thread 37: Cached 24742B of data; operation type: Simple
+[9.6.2026. 00:57:11] [Response] Thread 37: Sending 24742B long response
+[9.6.2026. 00:57:11] [Network] Thread 37: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:11] [Time] Thread 37: Finished processing in 3,033s
+[9.6.2026. 00:57:11] [Notify] Task 11 (Thread 37): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:11] [Notify] Thread 37: Cached 23549B of data; operation type: Simple
+[9.6.2026. 00:57:11] [Response] Thread 37: Sending 23549B long response
+[9.6.2026. 00:57:11] [Network] Thread 37: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:11] [Time] Thread 37: Finished processing in 3,192s
+[9.6.2026. 00:57:11] [Notify] Task 12 (Thread 37): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:11] [Notify] Thread 37: Cached 6885B of data; operation type: Simple
+[9.6.2026. 00:57:11] [Response] Thread 37: Sending 6885B long response
+[9.6.2026. 00:57:11] [Network] Thread 37: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:11] [Time] Thread 37: Finished processing in 3,225s
+[9.6.2026. 00:57:12] [Notify] Task 13 (Thread 39): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:12] [Notify] Thread 39: Cached 43397B of data; operation type: Simple
+[9.6.2026. 00:57:12] [Response] Thread 39: Sending 43397B long response
+[9.6.2026. 00:57:12] [Network] Thread 39: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:12] [Time] Thread 39: Finished processing in 4,319s
+[9.6.2026. 00:57:12] [Notify] Task 14 (Thread 37): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:12] [Notify] Thread 37: Cached 50341B of data; operation type: Simple
+[9.6.2026. 00:57:12] [Response] Thread 37: Sending 50341B long response
+[9.6.2026. 00:57:12] [Network] Thread 37: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:12] [Time] Thread 37: Finished processing in 4,376s
+[9.6.2026. 00:57:12] [Notify] Task 15 (Thread 37): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:12] [Notify] Thread 37: Cached 262841B of data; operation type: Simple
+[9.6.2026. 00:57:12] [Response] Thread 37: Sending 262841B long response
+[9.6.2026. 00:57:12] [Network] Thread 37: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:12] [Time] Thread 37: Finished processing in 4,687s
+[9.6.2026. 00:57:13] [Notify] Task 16 (Thread 39): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:13] [Notify] Thread 39: Cached 76197B of data; operation type: Simple
+[9.6.2026. 00:57:13] [Response] Thread 39: Sending 76197B long response
+[9.6.2026. 00:57:13] [Network] Thread 39: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:13] [Time] Thread 39: Finished processing in 5,126s
+[9.6.2026. 00:57:13] [Notify] Task 17 (Thread 37): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:13] [Notify] Thread 37: Cached 239844B of data; operation type: Simple
+[9.6.2026. 00:57:13] [Response] Thread 37: Sending 239844B long response
+[9.6.2026. 00:57:13] [Network] Thread 37: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:13] [Time] Thread 37: Finished processing in 5,287s
+[9.6.2026. 00:57:14] [Notify] Task 18 (Thread 24): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:14] [Notify] Thread 24: Cached 68803B of data; operation type: Simple
+[9.6.2026. 00:57:14] [Response] Thread 24: Sending 68803B long response
+[9.6.2026. 00:57:14] [Network] Thread 24: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:14] [Time] Thread 24: Finished processing in 5,845s
+[9.6.2026. 00:57:14] [Notify] Task 19 (Thread 24): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:14] [Notify] Thread 24: Cached 50351B of data; operation type: Simple
+[9.6.2026. 00:57:14] [Response] Thread 24: Sending 50351B long response
+[9.6.2026. 00:57:14] [Network] Thread 24: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:14] [Time] Thread 24: Finished processing in 6,083s
+[9.6.2026. 00:57:19] [Request] Thread 11: GET http://localhost:8080/search?authors=tolkien from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:19] [Notify] Thread 12: Dispatching (active: 1/100)
+[9.6.2026. 00:57:19] [Request] Thread 12: GET http://localhost:8080/search?authors=tolkien from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:19] [Notify] Thread 12: Translation chain:
+	   /search?authors=tolkien
+	   -> a=tolkien
+	   -> q=((author:tolkien))
+[9.6.2026. 00:57:19] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:19] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:20] [Notify] Task 20 (Thread 24): Stripped excess data from the retrieved JSON object
+[9.6.2026. 00:57:20] [Notify] Thread 24: Cached 62155B of data; operation type: Simple
+[9.6.2026. 00:57:20] [Response] Thread 24: Sending 62155B long response
+[9.6.2026. 00:57:20] [Network] Thread 24: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:20] [Time] Thread 24: Finished processing in 0,801s
+[9.6.2026. 00:57:21] [Request] Thread 11: GET http://localhost:8080/search?authors=tolkien from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:21] [Notify] Thread 12: Dispatching (active: 1/100)
+[9.6.2026. 00:57:21] [Request] Thread 12: GET http://localhost:8080/search?authors=tolkien from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:21] [Notify] Thread 12: Translation chain:
+	   /search?authors=tolkien
+	   -> a=tolkien
+	   -> q=((author:tolkien))
+[9.6.2026. 00:57:21] [Notify] Thread 12: Found response in local cache
+[9.6.2026. 00:57:21] [Response] Thread 12: Sending 62155B long response
+[9.6.2026. 00:57:21] [Network] Thread 24: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:21] [Time] Thread 24: Finished processing in 0,003s
+[9.6.2026. 00:57:22] [Request] Thread 11: GET http://localhost:8080/search?authors=tolkien from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:22] [Notify] Thread 12: Dispatching (active: 1/100)
+[9.6.2026. 00:57:22] [Request] Thread 12: GET http://localhost:8080/search?authors=tolkien from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:22] [Notify] Thread 12: Translation chain:
+	   /search?authors=tolkien
+	   -> a=tolkien
+	   -> q=((author:tolkien))
+[9.6.2026. 00:57:22] [Notify] Thread 12: Found response in local cache
+[9.6.2026. 00:57:22] [Response] Thread 12: Sending 62155B long response
+[9.6.2026. 00:57:22] [Network] Thread 37: Response transfer through network initiated. Response status code: 200
+[9.6.2026. 00:57:22] [Time] Thread 37: Finished processing in 0,002s
+[9.6.2026. 00:57:23] [Request] Thread 11: GET http://localhost:8080/search?authors=fgsefgidsfgsdfgi from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:23] [Notify] Thread 12: Dispatching (active: 1/100)
+[9.6.2026. 00:57:23] [Request] Thread 12: GET http://localhost:8080/search?authors=fgsefgidsfgsdfgi from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:23] [Notify] Thread 12: Translation chain:
+	   /search?authors=fgsefgidsfgsdfgi
+	   -> a=fgsefgidsfgsdfgi
+	   -> q=((author:fgsefgidsfgsdfgi))
+[9.6.2026. 00:57:23] [Notify] Thread 12: Request not cached, API callback initiated
+[9.6.2026. 00:57:23] [Network] Thread 12: Sending async request to OpenLibrary's API
+[9.6.2026. 00:57:23] [Notify] Task 21 (Thread 37): The acquired response contains no work data
+[9.6.2026. 00:57:23] [Notify] Thread 37: Cached 17B of data; operation type: Simple
+[9.6.2026. 00:57:23] [Response] Thread 37: Sending 17B long response
+[9.6.2026. 00:57:23] [Network] Thread 37: Response transfer through network initiated. Response status code: 404
+[9.6.2026. 00:57:23] [Time] Thread 37: Finished processing in 0,2s
+[9.6.2026. 00:57:25] [Request] Thread 11: GET http://localhost:8080/search?authors=fgsefgidsfgsdfgi from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:25] [Notify] Thread 12: Dispatching (active: 1/100)
+[9.6.2026. 00:57:25] [Request] Thread 12: GET http://localhost:8080/search?authors=fgsefgidsfgsdfgi from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:25] [Notify] Thread 12: Translation chain:
+	   /search?authors=fgsefgidsfgsdfgi
+	   -> a=fgsefgidsfgsdfgi
+	   -> q=((author:fgsefgidsfgsdfgi))
+[9.6.2026. 00:57:25] [Notify] Thread 12: Found response in local cache
+[9.6.2026. 00:57:25] [Response] Thread 12: Sending 17B long response
+[9.6.2026. 00:57:25] [Network] Thread 12: Response transfer through network initiated. Response status code: 404
+[9.6.2026. 00:57:25] [Time] Thread 12: Finished processing in 0,001s
+[9.6.2026. 00:57:27] [Request] Thread 11: GET http://localhost:8080/search?authors=fgsefgidsfgsdfgi from localhost:8080 -> Request recieved
+[9.6.2026. 00:57:27] [Notify] Thread 12: Dispatching (active: 1/100)
+[9.6.2026. 00:57:27] [Request] Thread 12: GET http://localhost:8080/search?authors=fgsefgidsfgsdfgi from localhost:8080 -> Request started processing
+[9.6.2026. 00:57:27] [Notify] Thread 12: Translation chain:
+	   /search?authors=fgsefgidsfgsdfgi
+	   -> a=fgsefgidsfgsdfgi
+	   -> q=((author:fgsefgidsfgsdfgi))
+[9.6.2026. 00:57:27] [Notify] Thread 12: Found response in local cache
+[9.6.2026. 00:57:27] [Response] Thread 12: Sending 17B long response
+[9.6.2026. 00:57:27] [Network] Thread 12: Response transfer through network initiated. Response status code: 404
+[9.6.2026. 00:57:27] [Time] Thread 12: Finished processing in 0,002s
