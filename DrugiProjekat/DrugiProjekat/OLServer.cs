@@ -30,7 +30,8 @@ namespace DrugiProjekat {
                 Logger.EchoLog(Logger.Event.Critical, $"Server failed to start: {e.Message}");
                 return false;
             }
-            Logger.EchoLog(Logger.Event.Notify, $"Started server at web address {serverPath} (do {maxConcurrentProcessing} paralelnih obrada)");
+            Logger.EchoLog(Logger.Event.Notify, $"Started server at web address {serverPath}");
+            Logger.EchoLog(Logger.Event.Synchro, $"Maximum concurrent requests supported: {maxConcurrentProcessing}");
             return true;
         }
 

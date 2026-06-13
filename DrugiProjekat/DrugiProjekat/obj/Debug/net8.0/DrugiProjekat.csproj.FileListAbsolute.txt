@@ -13,3 +13,18 @@ C:\Users\nikolamihajlo\Downloads\FAKS\III godina\Sistemsko programiranje\Projekt
 C:\Users\nikolamihajlo\Downloads\FAKS\III godina\Sistemsko programiranje\Projekti\DRUGI PROJEKAT\SysProg-2\DrugiProjekat\DrugiProjekat\obj\Debug\net8.0\DrugiProjekat.pdb
 C:\Users\nikolamihajlo\Downloads\FAKS\III godina\Sistemsko programiranje\Projekti\DRUGI PROJEKAT\SysProg-2\DrugiProjekat\DrugiProjekat\obj\Debug\net8.0\DrugiProjekat.genruntimeconfig.cache
 C:\Users\nikolamihajlo\Downloads\FAKS\III godina\Sistemsko programiranje\Projekti\DRUGI PROJEKAT\SysProg-2\DrugiProjekat\DrugiProjekat\obj\Debug\net8.0\ref\DrugiProjekat.dll
+C:\Users\Pavle\Desktop\Elfak\Hel\Sistemsko\Projekti\SysProg-2\DrugiProjekat\DrugiProjekat\bin\Debug\net8.0\DrugiProjekat.exe
+C:\Users\Pavle\Desktop\Elfak\Hel\Sistemsko\Projekti\SysProg-2\DrugiProjekat\DrugiProjekat\bin\Debug\net8.0\DrugiProjekat.deps.json
+C:\Users\Pavle\Desktop\Elfak\Hel\Sistemsko\Projekti\SysProg-2\DrugiProjekat\DrugiProjekat\bin\Debug\net8.0\DrugiProjekat.runtimeconfig.json
+C:\Users\Pavle\Desktop\Elfak\Hel\Sistemsko\Projekti\SysProg-2\DrugiProjekat\DrugiProjekat\bin\Debug\net8.0\DrugiProjekat.dll
+C:\Users\Pavle\Desktop\Elfak\Hel\Sistemsko\Projekti\SysProg-2\DrugiProjekat\DrugiProjekat\bin\Debug\net8.0\DrugiProjekat.pdb
+C:\Users\Pavle\Desktop\Elfak\Hel\Sistemsko\Projekti\SysProg-2\DrugiProjekat\DrugiProjekat\obj\Debug\net8.0\DrugiProjekat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pavle\Desktop\Elfak\Hel\Sistemsko\Projekti\SysProg-2\DrugiProjekat\DrugiProjekat\obj\Debug\net8.0\DrugiProjekat.AssemblyInfoInputs.cache
+C:\Users\Pavle\Desktop\Elfak\Hel\Sistemsko\Projekti\SysProg-2\DrugiProjekat\DrugiProjekat\obj\Debug\net8.0\DrugiProjekat.AssemblyInfo.cs
+C:\Users\Pavle\Desktop\Elfak\Hel\Sistemsko\Projekti\SysProg-2\DrugiProjekat\DrugiProjekat\obj\Debug\net8.0\DrugiProjekat.csproj.CoreCompileInputs.cache
+C:\Users\Pavle\Desktop\Elfak\Hel\Sistemsko\Projekti\SysProg-2\DrugiProjekat\DrugiProjekat\obj\Debug\net8.0\DrugiProjekat.sourcelink.json
+C:\Users\Pavle\Desktop\Elfak\Hel\Sistemsko\Projekti\SysProg-2\DrugiProjekat\DrugiProjekat\obj\Debug\net8.0\DrugiProjekat.dll
+C:\Users\Pavle\Desktop\Elfak\Hel\Sistemsko\Projekti\SysProg-2\DrugiProjekat\DrugiProjekat\obj\Debug\net8.0\refint\DrugiProjekat.dll
+C:\Users\Pavle\Desktop\Elfak\Hel\Sistemsko\Projekti\SysProg-2\DrugiProjekat\DrugiProjekat\obj\Debug\net8.0\DrugiProjekat.pdb
+C:\Users\Pavle\Desktop\Elfak\Hel\Sistemsko\Projekti\SysProg-2\DrugiProjekat\DrugiProjekat\obj\Debug\net8.0\DrugiProjekat.genruntimeconfig.cache
+C:\Users\Pavle\Desktop\Elfak\Hel\Sistemsko\Projekti\SysProg-2\DrugiProjekat\DrugiProjekat\obj\Debug\net8.0\ref\DrugiProjekat.dll

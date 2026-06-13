@@ -532,3 +532,17 @@
 [9.6.2026. 00:57:27] [Response] Thread 12: Sending 17B long response
 [9.6.2026. 00:57:27] [Network] Thread 12: Response transfer through network initiated. Response status code: 404
 [9.6.2026. 00:57:27] [Time] Thread 12: Finished processing in 0,002s
+[6/13/2026 10:02:04 PM] [Notify] Thread 1: Started server at web address http://localhost:8080/
+[6/13/2026 10:02:04 PM] [Synchro] Thread 1: Maximum concurrent requests supported: 100
+[6/13/2026 10:02:10 PM] [Notify] Thread 1: Server is closing
+[6/13/2026 10:02:10 PM] [Error] Thread 12: The I/O operation has been aborted because of either a thread exit or an application request.
+[6/13/2026 10:02:10 PM] [Notify] Thread 12: Server is no longer listening
+[6/13/2026 10:02:10 PM] [Notify] Thread 13: Dispatcher stopped
+[6/13/2026 10:02:10 PM] [Notify] Thread 1: Server closed
+[6/13/2026 10:02:44 PM] [Notify] Thread 1: Started server at web address http://localhost:8080/
+[6/13/2026 10:02:44 PM] [Synchro] Thread 1: Maximum concurrent requests supported: 100
+[6/13/2026 10:02:45 PM] [Notify] Thread 1: Server is closing
+[6/13/2026 10:02:45 PM] [Error] Thread 12: The I/O operation has been aborted because of either a thread exit or an application request.
+[6/13/2026 10:02:45 PM] [Notify] Thread 12: Server is no longer listening
+[6/13/2026 10:02:45 PM] [Notify] Thread 13: Dispatcher stopped
+[6/13/2026 10:02:45 PM] [Notify] Thread 1: Server closed

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DrugiProjekat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b311c11ac7c409922d067fba59bc27c0f5b1d312")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbb18e9176899f482463c523ee60f6a2c229f944")]
 [assembly: System.Reflection.AssemblyProductAttribute("DrugiProjekat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DrugiProjekat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

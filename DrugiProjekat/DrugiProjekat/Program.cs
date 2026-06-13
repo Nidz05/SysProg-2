@@ -15,7 +15,3 @@ namespace DrugiProjekat {
 }
 
 // https://openlibrary.org/
-/*
-    /
-    /search?[author, title, year, key][&sort][&lang]
-*/
